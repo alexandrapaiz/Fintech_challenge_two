@@ -1,0 +1,1 @@
+history 50 > terminal_history.txt
