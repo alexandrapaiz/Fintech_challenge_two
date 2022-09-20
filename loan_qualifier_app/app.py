@@ -105,8 +105,8 @@ def save_qualifying_loans(qualifying_loans):
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
-    # @TODO: Complete the usability dialog for savings the CSV Files.
-    # YOUR CODE HERE!
+    csvpath = Path('daily_rate_sheet.csv')
+    save_csv(csvpath, qualifying_loans)
 
 
 def run():
